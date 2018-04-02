@@ -30,8 +30,12 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-var removeLastKitten = ["Milo", "Otis", "Garfield"]
-removeLastKitten = removeLastKitten.slice(0, removeLastKitten.length -1)
+var removeLastKitten = ["Milo", "Otis", "Garfield"];
+removeLastKitten = removeLastKitten.slice(0, removeLastKitten.length -1);
 return removeLastKitten;
 }
 
+function removeFirstKitten() {
+var removeFirstKitten = ["Milo", "Otis", "Garfield"];
+removeFirstKitten = removeFirstKitten.slice(1);
+}
